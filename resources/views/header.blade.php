@@ -1,42 +1,59 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
 
     <title>TrashyGo</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/headerfooter.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/boilerplate.css') }}" rel="stylesheet">
+
 </head>
+<body>
+<header class="container navcontainer fixed-top">
 
-<body class="d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-expand-lg navbar-dark">
 
-    <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">TrashyGo</a>
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample06" aria-controls="navbarsExample06" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <a class="navbar-brand" href="/">
 
-      <div class="navbar-collapse collapse" id="navbarsExample06" style="">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link {{ Request::is('/about') ? 'active' : '' }}" href="#">About <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown06" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown06">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+            <img src="../images/logo.png"
+
+                alt="TrashyGo Logo">
+
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse"
+
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+
+
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+
+            <div class="navbar-nav ml-auto">
+
+                <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
+
+                <a class="nav-item nav-link active" href="privacy">Privacy <span class="sr-only"></span></a>
+
             </div>
-          </li>
-        </ul>
-      </div>
+
+        </div>
+
     </nav>
+
+</header>
+
