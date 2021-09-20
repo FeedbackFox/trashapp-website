@@ -1,7 +1,7 @@
 $(document).ready(function() {
-    setScrollbarTransparent();
+    //setScrollbarTransparent();
     $(window).scroll(function() {
-        setScrollbarTransparent();
+        //setScrollbarTransparent();
 
 
 
@@ -17,14 +17,21 @@ $(document).ready(function() {
     });
 });
 
+/*
 function setScrollbarTransparent() {
-    var height = $('#landingcarousel').height();
-    console.log(height);
-    var scrollTop = $(window).scrollTop();
-
-    if (scrollTop >= height - 30) {
+        var height = $('#landingcarousel').height();
+        console.log(height);
+        var scrollTop = $(window).scrollTop();
+    
+        if (scrollTop >= height - 30) {
+            $('.navbar').addClass('solid-nav');
+        } else {
+            //$('.navbar').removeClass('solid-nav');
+            $('.navbar').addClass('solid-nav');
+        }
+    else {
         $('.navbar').addClass('solid-nav');
-    } else {
-        $('.navbar').removeClass('solid-nav');
     }
-}
+    
+
+}*/
