@@ -52,11 +52,21 @@ header {
 }
 
 /* Individual Element Rules */
+.wrapper {
+  margin: 0;
+  padding: 0;
+}
+
 .homecarousel {
   z-index: -1;
+  max-height: 40vh;
 }
 
 .homecontainer {
   z-index: 1;
+  margin-right: 0;
+  margin-left: 0;
+  padding-top: 50px;
+  width: 100vw;
 }
 

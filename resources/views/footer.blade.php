@@ -1,4 +1,5 @@
+</div> <!-- Wrapper -->
 </body>
-<footer class="mt-auto"></footer>
+<footer></footer>
 <script src="../js/transparentnav.js"></script>
 </html>
