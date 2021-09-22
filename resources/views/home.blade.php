@@ -14,34 +14,258 @@
     </div>
 </div>
 
+
+<div id="carouseltext" class="d-flex justify-content-center">
+    <h1>TrashyGo</h1>
+</div>
+
+
+
 <div class="homecontainer bg-white">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12">
-              <h1>Lorem Ipsum</h1>
-                <p>Testing one two three Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta beatae tenetur
-                    illum modi, natus odio voluptatem necessitatibus cumque illo laudantium repudiandae impedit atque
-                    tempora optio consequuntur? Qui ipsam error molestiae Lorem ipsum dolor sit amet consectetur
-                    adipisicing elit. Officiis vero itaque dicta repellendus error cupiditate neque, esse distinctio?
-                    Mollitia, odio saepe? Molestias vitae eveniet assumenda quisquam nulla, earum soluta officia. Lorem
-                    ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, molestiae voluptatum. Corrupti
-                    nostrum unde tempora qui doloribus nihil, dicta praesentium ipsum saepe perspiciatis expedita
-                    asperiores, non molestias animi debitis sapiente. Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Necessitatibus perferendis esse cupiditate quas hic earum, vel modi aut obcaecati veniam
-                    magni. Eos autem aliquid accusantium molestias at, laboriosam iste maxime. Lorem ipsum dolor sit
-                    amet consectetur, adipisicing elit. Est aperiam eveniet obcaecati eius optio adipisci recusandae,
-                    perspiciatis iste, nam architecto temporibus itaque? Itaque non dolorum soluta esse voluptas at
-                    explicabo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas dolores exercitationem
-                    quidem voluptatem optio commodi, laboriosam ullam unde sed natus rem, cum molestias expedita. Error
-                    corporis repellat doloremque tenetur velit. Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit. Nesciunt, excepturi, ad ducimus atque vel nam soluta et temporibus rerum commodi quod hic
-                    voluptate officiis magni? Repellat laborum numquam cumque eveniet. Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit. Facilis voluptatibus at tempora, nisi, possimus corporis repellat,
-                    doloremque architecto modi eaque omnis porro delectus deserunt repellendus dignissimos ipsa nostrum
-                    velit fuga?</p>
+            <div class="col-sm-12 d-flex justify-content-center">
+                <h1>Klik hier om te spelen!</h1><br>
             </div>
+
+            <div class="col-sm-12 d-flex justify-content-center">
+                <a href="/trashapp"><button type="button" class="btn btn-primary homepage-button">Spelen</button></a>
+            </div>
+
+            <div class="row firstrow">
+
+                <div class="col-md-8">
+
+                    <h1>Our mission</h1>
+
+                    <p>
+                        Recycling is important to preserve the environment and to leave the planet in a better condition than we found it. Did you know that the average American throws away four pounds of trash daily? That is more than 1.5 tons of waste per person per year. Multiply that by 6 billion people and you know we have a major problem with waste.
+                        <br><br>
+                        For example, one of the biggest problems in the world today is the staggering amount of electronic waste (e-waste) that is produced. In 2009, thrown away TVs, computer, printers, monitors, scanners, keyboards etc. made up 2.37 million tons in the US.
+                        <br><br>
+                        This was only 2% of our landfill trash, but 70% of our toxic waste. It poisons our soil, water, trees and other precious resources. E-waste is especially bad for the environment and is something that kids can help to prevent as they learn to recycle many things in their communities: papers, magazines, cans, plastic and glass bottles, electronics and more.
+                        <br><br>
+                        The good news that all of us can do our part to recycle, and it starts the youth of America. If children learn from early on to recycle, they will carry that good habit with them for life. With some easy effort and guidelines, kids can learn how to become part of the solution to recycling for a healthier planet.
+                        <br><br>
+                        This guide will outline the key aspects of recycling, challenges, and what kids can do specifically to help to improve our recycling efforts every day. Use it as a resource to teach your students about the importance of becoming part of the recycling revolution.
+                    </p>
+
+                </div>
+
+                <div class="col-md-4 image-container">
+
+                    <img src="../images/recycling1.jpg"
+
+                        alt="A picture of recycling bins.">
+
+                </div>
+
+            </div>
+
+            <hr />
+
+
+
+            <div class="row">
+
+                <div class="col-md-4 image-container">
+
+                    <img src="../images/recycling1.jpg"
+
+                        alt="A picture of recycling bins.">
+
+                </div>
+
+                <div class="col-md-8">
+
+                    <h1>Our mission</h1>
+
+                    <p>
+                        Recycling is important to preserve the environment and to leave the planet in a better condition than we found it. Did you know that the average American throws away four pounds of trash daily? That is more than 1.5 tons of waste per person per year. Multiply that by 6 billion people and you know we have a major problem with waste.
+                        <br><br>
+                        For example, one of the biggest problems in the world today is the staggering amount of electronic waste (e-waste) that is produced. In 2009, thrown away TVs, computer, printers, monitors, scanners, keyboards etc. made up 2.37 million tons in the US.
+                        <br><br>
+                        This was only 2% of our landfill trash, but 70% of our toxic waste. It poisons our soil, water, trees and other precious resources. E-waste is especially bad for the environment and is something that kids can help to prevent as they learn to recycle many things in their communities: papers, magazines, cans, plastic and glass bottles, electronics and more.
+                        <br><br>
+                        The good news that all of us can do our part to recycle, and it starts the youth of America. If children learn from early on to recycle, they will carry that good habit with them for life. With some easy effort and guidelines, kids can learn how to become part of the solution to recycling for a healthier planet.
+                        <br><br>
+                        This guide will outline the key aspects of recycling, challenges, and what kids can do specifically to help to improve our recycling efforts every day. Use it as a resource to teach your students about the importance of becoming part of the recycling revolution.
+                    </p>
+
+                </div>
+
+            </div><!-- row -->
+
         </div>
     </div>
 </div>
+
+</div>
+
+    <main>
+
+        <div class="container">
+
+            
+
+        </div><!-- container -->
+
+        <div class="container-fluid mt-5 gallery">
+
+            <div class="row">
+
+                <div class="col pt-5">
+
+                    <h2 class="text-center">Gallery</h2>
+
+                    <h4 class="text-center">A gallery for displaying relevant images.</h4>
+
+                </div>
+
+            </div>
+
+            <div class="row portfolioimages mx-5 pb-5">
+
+                <div class="col-md-3">
+
+                    <div class="portfolioparent">
+
+                        <div class="shadow d-flex justify-content-center align-items-center">
+
+                            <h4>Reduce</h4>
+
+                        </div>
+
+                        <img src="../images/gallery1.jpg" alt="Image of recycling">
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <div class="portfolioparent">
+
+                        <div class="shadow d-flex justify-content-center align-items-center">
+
+                            <h4>Reuse</h4>
+
+                        </div>
+
+                        <img src="../images/gallery2.png" alt="Image of recycling">
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <div class="portfolioparent">
+
+                        <div class="shadow d-flex justify-content-center align-items-center">
+
+                            <h4>Recycle</h4>
+
+                        </div>
+
+                        <img src="../images/gallery3.png" alt="Image of recycling">
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <div class="portfolioparent">
+
+                        <div class="shadow d-flex justify-content-center align-items-center">
+
+                            <h4>idk</h4>
+
+                        </div>
+
+                        <img src="../images/gallery4.jpg" alt="Image of recycling bin">
+
+                    </div>
+
+                </div><!-- Column -->
+
+            </div><!-- Row -->
+
+        </div><!-- Container-fluid -->
+
+        <div class="container py-5">
+
+            <h2 class="text-center">Contact</h2>
+
+            <div class="row">
+
+                <div class="col-md-6">
+
+                    <h4>Feel free to ask us something!</h4>
+
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+
+                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+
+                        distribution of letters, as opposed to using Content.
+
+                        <br><br>
+
+                        Address: 123 Fakestreet, Alabama
+
+                        <br><br>
+
+                        (Available Monday to Saturday, 09:00 to 16:00)
+
+                        <br>Phone: 123-456-7890
+
+                    </p>
+
+                </div>
+
+                <div class="col-md-6 pb-4">
+
+                    <form>
+
+                        <div class="form-group">
+
+                            <label for="form-name">Name</label>
+
+                            <input type="text" class="form-control" id="form-name" placeholder="Your full name">
+
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your name or your
+
+                                email address with anyone
+
+                                else.</small>
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="form-email">Email Address</label>
+
+                            <input type="email" class="form-control" id="form-email" placeholder="Enter Email">
+
+
+
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="form-message">Message</label>
+
+                            <textarea class="form-control" id="form-message" placeholder="Enter message" rows="4"></textarea>
+
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Submit</button>
+
+                </div>
+
+            </div> <!-- Row -->
+
+        </div><!-- Container -->
 
 @include('footer')

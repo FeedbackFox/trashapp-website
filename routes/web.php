@@ -21,6 +21,10 @@ Route::get('privacy', function () {
     return view('privacy');
 });
 
+Route::get('trashapp', function () {
+    return view('trashapp');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

@@ -25,7 +25,7 @@
         <header>
 
             <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
-                <a class="navbar-brand" href="#"></a>
+                <a class="navbar-brand" href="/"><img src="../images/logo.png" class="logo"><p class="logotext">TrashyGo</p></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -34,13 +34,16 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                        <li class="nav-item {{ (request()->is('/')) ? 'active' : '' }}">  
+                            <a class="nav-link" href="/">Home <span class="sr-only"></span></a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item {{ (request()->is('privacy')) ? 'active' : '' }}">  
                             <a class="nav-link" href="/privacy">Privacy</a>
+                        </li>
+                        <li class="nav-item {{ (request()->is('trashapp')) ? 'active' : '' }}">
+                            <a class="nav-link" href="/trashapp">Game</a>
                         </li>
                 </div>
             </nav>
-            
+
         </header>
