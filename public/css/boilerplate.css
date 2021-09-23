@@ -103,11 +103,10 @@ h1, h2 {
   -webkit-text-stroke: 1px black;
 }
 
-
 .homecarousel {
   z-index: -1;
   height: 60vh;
-  width: 100vw;
+  width: 99vw;
   overflow: hidden;
 }
 
