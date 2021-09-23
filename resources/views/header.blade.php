@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
     <title>TrashyGo</title>
+
+    <link rel="icon" type="image/png" href="../images/favicon.png"/>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>

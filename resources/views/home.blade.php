@@ -3,13 +3,13 @@
 <div class="carousel slide homecarousel foxparallax" data-parallaxrate="0.4" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="d-block w-100" src="../images/carousel1.jpg" alt="First slide">
+            <img class="d-block w-100" src="../images/carousel1.png" alt="First slide">
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="../images/carousel2.jpg" alt="Second slide">
+            <img class="d-block w-100" src="../images/carousel2.png" alt="Second slide">
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="../images/carousel3.jpg" alt="Third slide">
+            <img class="d-block w-100" src="../images/carousel3.png" alt="Third slide">
         </div>
     </div>
 </div>
@@ -29,7 +29,7 @@
             </div>
 
             <div class="col-sm-12 d-flex justify-content-center">
-                <a href="/trashapp"><button type="button" class="btn btn-primary homepage-button">Spelen</button></a>
+                <a href="../files/TrashyGo.apk"><button type="button" class="btn btn-primary homepage-button">Spelen</button></a>
             </div>
 
             <div class="row firstrow">
@@ -132,11 +132,11 @@
 
                         <div class="shadow d-flex justify-content-center align-items-center">
 
-                            <h4>Reduce</h4>
+                            <h4>Gameplay</h4>
 
                         </div>
 
-                        <img src="../images/gallery1.jpg" alt="Image of recycling">
+                        <img src="../images/gallery1.png" alt="Image of recycling">
 
                     </div>
 
@@ -148,7 +148,7 @@
 
                         <div class="shadow d-flex justify-content-center align-items-center">
 
-                            <h4>Reuse</h4>
+                            <h4>Barcode Scanner</h4>
 
                         </div>
 
@@ -164,7 +164,7 @@
 
                         <div class="shadow d-flex justify-content-center align-items-center">
 
-                            <h4>Recycle</h4>
+                            <h4>Customization</h4>
 
                         </div>
 
@@ -180,11 +180,11 @@
 
                         <div class="shadow d-flex justify-content-center align-items-center">
 
-                            <h4>idk</h4>
+                            <h4>Menu</h4>
 
                         </div>
 
-                        <img src="../images/gallery4.jpg" alt="Image of recycling bin">
+                        <img src="../images/gallery4.png" alt="Image of recycling bin">
 
                     </div>
 

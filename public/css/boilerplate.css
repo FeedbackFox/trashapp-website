@@ -99,7 +99,8 @@ h1, h2 {
 }
 
 #carouseltext > h1 {
-  font-size: 50px;
+  font-size: 70px;
+  -webkit-text-stroke: 1px black;
 }
 
 
